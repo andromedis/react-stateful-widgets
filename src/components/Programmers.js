@@ -42,7 +42,7 @@ export default function Programmers() {
       }
     }
     return null;
-  };
+  }; 
 
   const style = {
     fontSize: '1.5em',
