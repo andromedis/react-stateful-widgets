@@ -1,0 +1,25 @@
+.item-line {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.checkbox {
+    padding-right: 1rem;
+    font-size: 150%;
+}
+
+.item-line.complete {
+    color: grey;
+}
+
+.item-text.complete {
+    text-decoration: line-through;
+}
